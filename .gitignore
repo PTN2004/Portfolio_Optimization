@@ -1,0 +1,72 @@
+# --- Python Bytecode & Compiled files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- C Distribution / Translation ---
+*.so
+
+# --- Virtual Environments (Môi trường ảo) ---
+# Tên phổ biến của các folder venv
+env/
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Distribution / Packaging (Đóng gói dự án) ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Unit Test / Coverage (Kiểm thử) ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- IDE & Editors (Cấu hình trình soạn thảo) ---
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+
+# --- Environment Variables (QUAN TRỌNG: Bảo mật) ---
+# Chứa API keys, mật khẩu... tuyệt đối không đẩy lên Git
+.env
+.env.local
+.env.*.local
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db

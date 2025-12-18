@@ -1,0 +1,16 @@
+pandas
+numpy 
+
+vnstock
+gymnasium
+yfinance
+torch
+stable-baselines3
+tensorboard>=2.14.0
+pytest>=7.4.0
+black>=23.9.1
+pylint>=3.0.0
+
+fastapi
+plotly
+stable-baselines3[extra]
