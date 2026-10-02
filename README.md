@@ -9,7 +9,7 @@ Hệ thống tối ưu hóa danh mục đầu tư tự động (Automated Asset 
 
 ## 🚀 Tính năng Cốt lõi & Điểm nhấn Kỹ thuật
 
-* **Kiến trúc SOTA (State-of-the-Art):** Thay vì dùng LSTM/GRU truyền thống, mô hình sử dụng **Transformer Encoder** làm Policy Network để trích xuất đặc trưng chuỗi thời gian dài hạn, giải quyết triệt để bài toán vanishing gradient.
+* **Kiến trúc:** Thay vì dùng LSTM/GRU truyền thống, mô hình sử dụng **Transformer Encoder** làm Policy Network để trích xuất đặc trưng chuỗi thời gian dài hạn, giải quyết triệt để bài toán vanishing gradient.
 * **Tư duy Quản trị Rủi ro (Risk-first Mindset):** Hàm phần thưởng (Reward Function) không chỉ tối ưu lợi nhuận thuần, mà được thiết kế để **phạt nặng các mức sụt giảm tài sản (Max Drawdown)**, mô phỏng chính xác khẩu vị rủi ro của các quỹ đầu tư thực tế.
 * **Môi trường Giao dịch Thực tế (Custom Gym Env):** Tính toán chi tiết phí giao dịch (Transaction Costs) và độ trượt giá (Slippage), loại bỏ ảo tưởng về lợi nhuận (overfitting) thường gặp trong các mô hình backtest thông thường.
 * **Vectorized Backtesting:** Đánh giá toàn diện chiến lược trên tập dữ liệu Out-of-sample (2023 - 2025) với các chỉ số chuyên sâu của ngành Quant (Sharpe, Calmar, MDD).
